@@ -4,8 +4,8 @@ from gpflow.base import Module
 from gpflow.mean_functions import Zero
 from gpflow.models.model import GPModel, MeanAndVariance
 
-from layer_initializations import init_layers_linear
-from utils import BroadcastingLikelihood
+from .layer_initializations import init_layers_linear
+from .utils import BroadcastingLikelihood
 
 
 class DeepGPBase(Module):

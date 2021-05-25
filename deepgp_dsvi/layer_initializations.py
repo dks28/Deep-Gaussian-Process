@@ -2,7 +2,7 @@ import gpflow
 import numpy as np
 from gpflow.mean_functions import Identity, Linear, Zero
 
-from layers import SVGPLayer
+from .layers import SVGPLayer
 
 
 def init_layers_linear(X, Y, Z, kernels, layer_sizes, mean_function=Zero(),

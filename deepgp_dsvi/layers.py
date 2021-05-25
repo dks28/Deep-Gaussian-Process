@@ -6,7 +6,7 @@ from gpflow.inducing_variables import InducingPoints
 from gpflow.utilities import triangular
 import gpflow.covariances as covs
 
-from utils import reparameterize
+from .utils import reparameterize
 
 
 class Layer(Module):
